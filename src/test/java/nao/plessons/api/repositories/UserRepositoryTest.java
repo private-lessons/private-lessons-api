@@ -1,5 +1,6 @@
 package nao.plessons.api.repositories;
 
+import nao.plessons.api.BaseTest;
 import nao.plessons.api.model.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +14,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserRepositoryTest {
+public class UserRepositoryTest implements BaseTest {
 
     @Autowired
     private UserRepository userRepository;
