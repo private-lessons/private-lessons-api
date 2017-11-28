@@ -10,3 +10,7 @@ deploy:
   api-key:
     secure: $HEROKU_API_KEY
   app: private-lessons-api
+
+notifications:
+  email:
+    - oprysk.nazar@gmail.com
